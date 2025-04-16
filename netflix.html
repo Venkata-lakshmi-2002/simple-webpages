@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html>
+    <head><style>
+        body{
+            background-image: url('https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-970-80.jpg.webp');
+            background-attachment: fixed;
+            background-repeat:none;
+            background-size:100%;
+            /* margin-left:500px;
+            margin-top: 100px; */
+            margin:0;
+            height: 100%;
+            width: 200px;
+            
+            align-items: center;
+        }
+        form{
+            border:1px solid black;
+            text-align:center;
+            /* height:500px; */
+    
+            border-radius:5px;
+            box-shadow:2px 3px 4px 5px black;
+            background-color: black;
+            padding:20px;
+            top:20%;
+            left: 40%;
+            align-items: center;
+            position: absolute;
+            
+        }  
+        form input[type=text]{
+            border-radius: 5px;
+            padding: 5px;
+            height:40px;
+            font-size: large;
+            background-color:black;
+            border:1px solid white;
+            color:whitesmoke;
+        }
+        form input[type=password]{
+            border-radius: 5px;
+            padding: 5px;
+            height:40px;
+            font-size: large;
+            background-color:black;
+            border:1px solid white;
+            color:whitesmoke;
+        }
+        form input[type=button]{
+            background-color:red;
+            color:white;
+            height:40px;
+            width:200px;
+            border:1px solid red;
+            font-size:20px;
+            border-radius:4px;
+
+        }
+        form p{
+            text-align: center;
+            color:white;
+            font-size:20px;
+
+        }
+        form a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+
+        }
+        form #ch{
+            color:white;
+            font-size: 20px;
+
+        }
+        form #pr{
+            font-size:15px;
+        }
+
+
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</head>
+    <body>
+<form>
+    <h1>Sign in</h1>
+    <input type="text" placeholder="Email or mobile number"><br>
+    <br><input type="password" placeholder="Password"><br>
+    <br><input type="button" value="Sign in">
+    <p>OR</p>
+    <input type="button" value="Use a sign-in code" style="background-color:white;opacity:0.4;color:green;"><br>
+    <a href="">Forgot password?</a><br><br>
+    <input type="checkbox"><label id="ch">Rmember</label>
+    <br>
+    <a href="">New to Nextflix?</a><b style="color:white">Sign up now </b>
+    <p id="pr">This page is protected by Google reCAPTCHA to<br> ensure you're not a bot. Learn more.</p>
+</form>
+    </body>
+</html>
